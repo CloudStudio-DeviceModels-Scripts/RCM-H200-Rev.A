@@ -57,7 +57,7 @@ function updateDeviceUIRules(device, rules)
   // user interface. This means that the device will be limited to the 
   // endpoints defined by function getEndpoints() above.
   
-  // rules.canCreateEndpoints = false;
+  rules.canCreateEndpoints = true;
 }
 
 function updateEndpointUIRules(endpoint, rules)
